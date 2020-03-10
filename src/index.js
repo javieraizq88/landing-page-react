@@ -19,15 +19,15 @@ const Home = (props) => {
    
     return (
         <>
-            <Navbar />
+            <Navbar logoName="Start Boostrap" about="About" services="Services" portfolio="Portfolio" contact="Contact"/>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <YanaPart />
+                        <YanaPart firstHeading="One Page Wonder" secondHeading="Will Knock Your Socks Off"/>
                     </div>
                 </div>  
                 <div className="container">
-                    <HeadingOne />
+                    <HeadingOne textone="The First Heading" />
                  </div>  
                  <div className="container">
                     <Service/>
