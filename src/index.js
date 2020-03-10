@@ -27,13 +27,17 @@ const Home = (props) => {
                     </div>
                 </div>  
                 <div className="container">
-                    <HeadingOne />
+                    <HeadingOne text1="This First Heading " text2="Will Catch Your Eye" descrip="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus quae, commodi odio itaque maiores accusamus quaerat molestias sit tenetur at!"
+                     imagen=".\components\img\1.jpg" />
                  </div>  
                  <div className="container">
                     <Service/>
                  </div>
                  <div className="container">
-                    <Portfolio/>
+                    <Portfolio titulo="Portafolio" descripTitulo="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero nisi cupiditate necessitatibus voluptas quae atque debitis modi ex! Repellendus enim excepturi perspiciatis quod itaque porro vero aut reiciendis nemo. Ex!"
+                    imagen="../components/img/big-project-image.png"
+                    project="Project Name"
+                    descripcionFolio="Some quick example text to build on the card title and make up the bulk of the card's content."/>
                  </div>
                  <div className="container">
                     <div className="row">
