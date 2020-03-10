@@ -29,7 +29,7 @@ const Home = (props) => {
                 <div className="container">
                     <HeadingOne />
                  </div>  
-                 <div className="container">
+                 <div className="container" imagendeldos="./img/1.jpg" titulounodeldos="The Second Heading Is Pretty Cool Too." titulodosdeldos="Will Catch Your Eye" parrafodos="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fucse">
                     <Service/>
                  </div>
                  <div className="container">

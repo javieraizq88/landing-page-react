@@ -1,29 +1,19 @@
 import React from 'react';
 
-const Service = (props)  => {
-    const props ={
-        titulo1: "The Second Heading",
-        titulo2: "Is Pretty Cool Too.",
-        parrafo1: "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fucse dapibus, tellus ac cursus commodo."
-        imagen2: ".\components\img\2.jpg",
-    } 
-
-    const style = {
-        width :"100%", 
-        borderRadius: "100%"}
+const HeadingOne = (props) => {
     return (
         <>
-        <div className="row mt-3 stylish" id="second_heading">
-            <div className="col-4 mt-2">
-                <img src= {props.imagen2} style = {style} className="" alt="..." />
+        <div className="row mt-3">
+            <div className="col-8 mt-2">
+                <h1 className="">{props.titulounodeldos} <span className="text-secondary">{props.titulodosdeldos}</span></h1>
+                <p className="lead">{props.parrafodos}</p>
             </div>
-            <div className="col-8 text-center">
-                <h1 className=""> {props.titulo1} <span className="text-secondary">{props.titulo2}</span></h1>
-                <p className="lead">{props.parrafo1}</p>
+            <div className="col-4 text-center">
+                <img src= {props.imagendeldos} className="" alt="..." />
             </div>
         </div>
         </>
     )
 }
 
-export default Service;
+export default HeadingOne;
