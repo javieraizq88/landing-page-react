@@ -15,6 +15,7 @@ import "./index.css"
 const Home = (props) => {
     return (
         <>
+            <span>Hola</span>
             <Navbar />
             <div className="container">
                 <div className="row">
