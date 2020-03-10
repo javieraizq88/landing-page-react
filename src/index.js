@@ -28,7 +28,7 @@ const Home = (props) => {
                 </div>  
                 <div className="container">
                     <HeadingOne text1="This First Heading " text2="Will Catch Your Eye" descrip="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus quae, commodi odio itaque maiores accusamus quaerat molestias sit tenetur at!"
-                     imagen=".\components\img\1.jpg" />
+                     imagen="..\components\img\1.jpg" />
                  </div>  
                  <div className="container" >
                     <Service imagendeldos="../components/img/2.jpg" titulounodeldos="The Second Heading Is Pretty Cool Too." titulodosdeldos="Will Catch Your Eye" parrafodos="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fucse"/>

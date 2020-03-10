@@ -9,7 +9,7 @@ const Service = (props) => {
         }
     return (
         <>
-        <div className="row mt-3">
+        <div className="row mt-3" id="second_heading">
             <div className="col-4 text-center">
                 <img src= {props.imagendeldos} className="" alt="..." style={style}/>
             </div>
