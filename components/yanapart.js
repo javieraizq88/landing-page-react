@@ -6,8 +6,8 @@ const YanaPart = (props) => {
     return (
         <div className="card text-center yana">
             <div className="card-body">
-            <p className="heading">One Page Wonder</p>
-            <p className="heading2">Will Knock Your Socks Off</p>
+            <p className="heading">{props.firstHeading}</p>
+            <p className="heading2">{props.secondHeading}</p>
             </div>
         </div>
     )
