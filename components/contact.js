@@ -3,10 +3,10 @@ import React from "react"
 const Contact = (props) => {
     return (
         <>
-            <div className="container mx-2">
+            <div className="container mx-2 stylish" >
 
                 <form>
-                    <div className="row ">
+                    <div className="row " id="message_form">
                         <div className="col-12">
                             <h4 className=" d-flex justify-content-start">Contact</h4>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, odio provident? Enim cum nesciunt
