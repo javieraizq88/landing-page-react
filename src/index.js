@@ -10,6 +10,7 @@
 
     const Home = (props) => {
         return (
+            //hola
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 d-flex justify-content-center">
