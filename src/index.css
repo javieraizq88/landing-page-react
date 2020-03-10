@@ -1,3 +1,20 @@
 /* body {
     background-color: #3f4455;
 } */
+.yana {
+    padding: 50px;
+    height: 500px;
+    background-image: url("https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/images2/program_content/5-best-cities-for-internships-in-chile-1-1476867710.jpg");
+}
+.heading{
+    font-size: 60px;
+    background-color:rgba(255,255,255, 0.8);
+    margin-bottom: 50px;
+
+}
+.heading2{
+    font-size: 50px;
+    background-color:rgba(255,255,255, 0.8);
+    margin-bottom: 0;
+
+}
